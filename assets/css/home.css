@@ -1,0 +1,302 @@
+/*body index*/
+body {
+    background-color: #F8F8F8 !important;
+}
+
+/*Navbar Index*/
+.navbar {
+    background-color: #26AFA2;
+    color: white;
+}
+
+/*Navbar Index*/
+
+/*======SECTION JUMBOTRON======*/
+/*Jumbotron Index*/
+.card-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*container-index*/
+.container-index {
+    background: rgb(204, 204, 204);
+    /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black color with 50% alpha/opacity */
+}
+
+/*container-index*/
+/*Jumbotron Index Endline
+
+/*======SECTION Text Gallery======*/
+
+
+/*======SECTION Produk Unggulan======*/
+.col {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.produk-unggulan {
+    display: block;
+}
+
+.footer {
+    background-color: #26AFA2 !important;
+    color: white;
+}
+
+/*Selengkapnya*/
+.article-clean {
+  color:#56585b;
+  background-color:#fff;
+  font-family:'Lora', serif;
+  font-size:14px;
+}
+
+.article-clean .intro {
+  font-size:16px;
+  margin:0 auto 30px;
+}
+
+.article-clean .intro h1 {
+  font-size:32px;
+  margin-bottom:15px;
+  padding-top:20px;
+  line-height:1.5;
+  color:inherit;
+  margin-top:20px;
+}
+
+.article-clean .intro p {
+  color:#929292;
+  font-size:12px;
+}
+
+.article-clean .intro p .by {
+  font-style:italic;
+}
+
+.article-clean .intro p .date {
+  text-transform:uppercase;
+  padding:4px 0 4px 10px;
+  margin-left:10px;
+  border-left:1px solid #ddd;
+}
+
+.article-clean .intro p a {
+  color:#333;
+  text-transform:uppercase;
+  padding-left:3px;
+}
+
+.article-clean .intro img {
+  margin-top:20px;
+}
+
+.article-clean .text p {
+  margin-bottom:20px;
+  line-height:1.45;
+}
+
+@media (min-width:768px) {
+  .article-clean .text p {
+    font-size:16px;
+  }
+}
+
+.article-clean .text h2 {
+  margin-top:28px;
+  margin-bottom:20px;
+  line-height:1.45;
+  font-size:16px;
+  font-weight:bold;
+  color:#333;
+}
+
+@media (min-width:768px) {
+  .article-clean .text h2 {
+    font-size:20px;
+  }
+}
+
+.article-clean .text figure {
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:20px;
+}
+
+.article-clean .text figure img {
+  margin-bottom:12px;
+  max-width:100%;
+}
+
+.content-blog img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Tentang*/
+.col .mb-4 .card img{
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 250px;
+}
+
+.btn-primary .btn-block{
+    background-color: #26AFA2!important;
+    color: white !important;    
+}
+
+/*Blog*/
+section .judulblog  h1{
+  background-color: #26AFA2 !important;   
+}
+
+/*btn selengkapny*/
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #26AFA2 !important;
+    border-color: #26AFA2;
+}
+
+.btn-selengkapnya {
+    border-radius: 50px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn-selengkapnya span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-selengkapnya span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-selengkapnya:hover span {
+  padding-right: 25px;
+}
+
+.btn-selengkapnya:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+ /*btn selengkapny*/
+
+.tanggal-blog, .nama-penulis {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.team-boxed {
+  color:#313437;
+  background-color:#eef4f7;
+}
+
+.team-boxed p {
+  color:#7d8285;
+}
+
+.team-boxed h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .team-boxed h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.team-boxed .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto;
+}
+
+.team-boxed .intro p {
+  margin-bottom:0;
+}
+
+.team-boxed .people {
+  padding:50px 0;
+}
+
+.team-boxed .item {
+  text-align:center;
+}
+
+.team-boxed .item .box {
+  text-align:center;
+  padding:30px;
+  background-color:#fff;
+  margin-bottom:30px;
+}
+
+
+.team-boxed .item .name {
+  font-weight:bold;
+  margin-top:28px;
+  margin-bottom:8px;
+  color:inherit;
+}
+
+.team-boxed .item .title {
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#d0d0d0;
+  letter-spacing:2px;
+  font-size:13px;
+}
+
+.team-boxed .item .description {
+  font-size:15px;
+  margin-top:15px;
+  margin-bottom:20px;
+}
+
+.team-boxed .item img {
+  height: 250px;
+  /*max-width:160px;*/
+  max-width: 100%;
+}
+
+.team-boxed .social {
+  font-size:18px;
+  color:#a2a8ae;
+}
+
+.team-boxed .social a {
+  color:inherit;
+  margin:0 10px;
+  display:inline-block;
+  opacity:0.7;
+}
+
+.team-boxed .social a:hover {
+  opacity:1;
+}

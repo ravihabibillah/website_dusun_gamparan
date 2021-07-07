@@ -1,0 +1,9 @@
+yang belum diedit
+[ ] Kegiatan/artikel blog
+[ ] Tentang/about
+[ ] Produk Unggulan
+[ ] Galeri
+[ ] Kontak
+
+Yang Sudah Diedit
+[x] intro
